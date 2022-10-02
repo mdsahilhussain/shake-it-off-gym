@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Pagination from "@mui/material/Pagination";
 import { Box, Stack, Typography } from "@mui/material";
-
 import { exerciseOptions, fetchData } from "../utils/fetchData";
 import { ExerciseCard, Loader } from "../components";
 
@@ -51,7 +50,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     <Box id="exercises" sx={{ mt: { lg: "109px" } }} mt="50px" p="20px">
       <Typography
         variant="h4"
-        color="white"
+        color="#F8F6E7"
         fontWeight="bold"
         sx={{ fontSize: { lg: "44px", xs: "30px" } }}
         mb="46px"
@@ -78,6 +77,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
             page={currentPage}
             onChange={paginate}
             size="large"
+            style={{background:"white"}}
           />
         )}
       </Stack>

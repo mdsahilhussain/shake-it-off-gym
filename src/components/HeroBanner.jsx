@@ -13,7 +13,7 @@ const HeroBanner = () => (
       Sheke It, Off Gym
     </Typography>
     <Typography
-      color="white"
+      color="#F8F6E7"
       fontWeight={700}
       sx={{ fontSize: { lg: "44px", xs: "40px" } }}
       mb="23px"
@@ -23,7 +23,7 @@ const HeroBanner = () => (
       And Repeat
     </Typography>
     <Typography
-      color="white"
+      color="#F8F6E7"
       fontSize="22px"
       fontFamily="Alegreya"
       lineHeight="35px"
