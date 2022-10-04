@@ -70,14 +70,13 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       <Stack sx={{ mt: { lg: "114px", xs: "70px" } }} alignItems="center">
         {exercises.length > 9 && (
           <Pagination
-            color="primary"
             shape="rounded"
             defaultPage={1}
             count={Math.ceil(exercises.length / exercisesPerPage)}
             page={currentPage}
             onChange={paginate}
             size="large"
-            style={{background:"white"}}
+            style={{background:"white", color:'red'}}
           />
         )}
       </Stack>

@@ -55,6 +55,11 @@ body {
   height: 742px;
   border-radius: 25px;
 }
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff !important;
+  background-color: blue !important;
+}
 
 .hero-banner-img {
   position: absolute;
