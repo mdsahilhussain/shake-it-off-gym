@@ -70,7 +70,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart, index }) => (
       color="#F8F6E7"
       textTransform="capitalize"
     >
-      {item}
+      {item.replaceAll("_", " ")}
     </Typography>
   </Stack>
 );

@@ -11,3 +11,5 @@ export { default as Loader } from "./Loader";
 export { default as SimilarExercises } from "./SimilarExercises";
 export { default as ExerciseVideos } from "./ExerciseVideos";
 export { default as Detail } from "./Detail";
+export { default as CalculatorCard } from "./CalculatorCard";
+export { default as Calculator } from "./Calculator";

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   background-color: #050706;
 }
 
@@ -7,13 +7,11 @@ body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-
 }
 
 ::-webkit-scrollbar {
   width: 0px;
 }
-
 
 .right-arrow,
 .left-arrow {
@@ -24,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #C0EA6A;
+  color: #c0ea6a;
   font-size: 20px;
   border-radius: 4px;
   position: absolute;
@@ -68,14 +66,13 @@ body {
   width: 700px;
   height: 900px;
   margin-top: -300px;
-
 }
 
 .exercise-card {
   width: 400px;
   height: 480px;
-  background: #F8F6E7;
-  border-top: 8px solid #5C8279;
+  background: #f8f6e7;
+  border-top: 8px solid #5c8279;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -88,11 +85,44 @@ body {
 
 .exercise-card img {
   height: 326px;
-} 
+}
+
+.calculator___container {
+  margin-top: 4rem;
+  background-color: #5c8279;
+  height: fit-content;
+  width: 100%;
+  border-radius: 30px;
+  padding: 3rem;
+  display: flex;
+  position: relative;
+}
+
+.calculator___container--card,
+.calculator___container--card___image {
+  margin-top: 3rem;
+}
+
+.calculator___container--card___image {
+  margin-left: 3rem;
+}
+
+.calculator___container--card___image img {
+position: absolute;
+right: 1rem;
+bottom: -3rem;
+}
+
+.calculator___container--gird {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+}
 
 .bodyPart-card {
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
+  
 }
 
 .exercise-card:hover,
@@ -101,8 +131,8 @@ body {
 }
 
 .search-btn:hover {
-  color: #C0EA6A !important;
-  border: 1px solid #C0EA6A !important;
+  color: #c0ea6a !important;
+  border: 1px solid #c0ea6a !important;
   background-color: #050706 !important;
 }
 
@@ -115,13 +145,12 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .detail-image {
     width: 300px;
     height: 300px;
     box-sizing: border-box;
   }
-
 
   .react-horizontal-scrolling-menu--scroll-container {
     width: 500px;
@@ -144,10 +173,9 @@ body {
     width: 320px;
     height: 300px;
   }
-
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .exercise-card {
     width: 280px;
   }
